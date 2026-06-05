@@ -15,3 +15,17 @@ Economic Indicators
 Dataset Construction
 
 Raw API responses were cleaned and transformed into structured Pandas DataFrames. Census variable codes were mapped to descriptive column names, missing values were handled, and additional affordability metrics were created.
+
+# Challenges Encountered
+Census data fields use coded variable names that required mapping and documentation.
+Data originated from multiple APIs with different formats and structures.
+Economic indicators operate on different time scales and frequencies.
+Missing values required validation and cleaning.
+API rate limits and response formatting required additional handling.
+
+# Project Limitations
+Analysis is limited to New Jersey counties.
+County-level averages may not reflect individual household situations.
+Mortgage rates, homeowner insurance, and property taxes are not directly incorporated into affordability calculations.
+Some economic variables are available only at the state level.
+Housing affordability is influenced by factors beyond those included in the dataset.
